@@ -109,6 +109,28 @@ body {
     background-size: cover;
     background-position: center center;
 }
+.contact_info .card{
+    width: 280px;
+    height: 80px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px cornsilk;
+    overflow: hidden;
+    display:inline-block;
+    margin-left: 6px;
+    position: relative;
+    z-index: 2;
+    text-align:center;
+    transition: all 0.25s;
+}
+.contact_info .card:hover{
+    transform: translate(-15px);
+    box-shadow: 0 12px 16px white;
+}
+.contact_info .card p{
+    padding: 3px 1rem;
+    font-size: 14px;
+    font-weight: 300;
+}
 .info_title,
 .info_items{
     position: relative;
